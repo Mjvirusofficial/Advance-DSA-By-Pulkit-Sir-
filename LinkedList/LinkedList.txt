@@ -1,0 +1,25 @@
+################### Linked List #######################
+
+Linked list is an linear data structure where series of 
+Node conected to each other.
+
+Here, Each node stored the data and address of the next
+node.
+
+Node is an important part of a linked list, its devided
+into two part first where we can stored the data and 
+second where we stored the address of the next node. 
+
+There are three types of linked list:-
+1.Singly Linked List
+2.Doubly Linked List
+3.Circular Linked List
+
+1.Singly Linked List:-
+Singly linked list is a simple linked list where  we 
+stored the data in first part of the node and in the 
+second part we stored the address of the next node.
+
+2.Doubly Linked List:-
+Doubly linked list have a extra part also in node that 
+is known as privious part, in which navigation is possible in both ways either forward and backward eisly as compared to single linkedlist.
