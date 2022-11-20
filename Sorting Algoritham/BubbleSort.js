@@ -17,18 +17,23 @@
 */ 
 
 let BubbleSort = (a) =>{
+    let ite = 0;
  for(let i = 0; i < a.length; i++){
     for(let j = i+1; j < a.length; j++){
         if(a[i] > a[j]){
             let mj = a[i]
             a[i] = a[j]
             a[j] = mj;
+            ite++
+            
+            
         }
     }
- }
+ }console.log(ite)
     return a;
+    
 }
 
-let a = [5,1,3,2,4]
+let a = [1,2,4,3]
 console.log(BubbleSort(a))
 
