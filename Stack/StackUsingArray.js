@@ -31,13 +31,13 @@ class Stack {
 
 
 const s = new Stack();
-//s.push(10)
-console.log(s.data)
-console.log(s.index)
-console.log(s.isEmpty())
+// s.push(10)
+// console.log(s.data)
+// console.log(s.index)
+// console.log(s.isEmpty())
 
-s.push(5)
-s.push(1)
-console.log(s.peek())
-console.log(s.pop())
-console.log(s.pop())
+// s.push(5)
+// s.push(1)
+// console.log(s.peek())
+// console.log(s.pop())
+// console.log(s.pop())

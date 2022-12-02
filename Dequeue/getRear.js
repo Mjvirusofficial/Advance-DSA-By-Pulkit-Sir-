@@ -1,0 +1,43 @@
+class Queue{
+    constructor(){
+        this.data  = []
+        this.front = 0;
+        this.rear  = 0;
+    }
+
+    isEmpty(){
+        return this.front == this.rear;
+    }
+
+    getRear(){
+        return this.data[this.rear-1]
+    }
+
+    pushFront(e){
+        this.front--;
+        this.data[this.front] = e;
+    }
+
+    popFront(){
+        if(this.isEmpty()) return 'Stack Underflow';
+        this.front++;
+    }
+
+    display(){
+        for(let i = this.front; i < this.rear; i++){
+            console.log(this.data[i])
+        }
+    }
+}
+
+let q = new Queue();
+q.pushFront(2)
+q.pushFront(45)
+q.pushFront(50)
+q.display()
+
+console.log('After poping...!')
+q.popFront()
+q.display()
+
+console.log('Rear is',q.getRear())
